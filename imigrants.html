@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<title>index</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("http://images.indianexpress.com/2017/09/rohingya-7592.jpg");
+    min-height: 75%;
+}
+.menu {
+    display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT/BASIC FACTS</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">PUSH/PULL FACTORS</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">AIDS</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag"></span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">Rohingya Migration 
+	<br>Crisis</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white"></span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">About the crisis </span></h5>
+    <p>The rohingyan reffugee crisis is about the rohingya people an ethnic minority who live in the country of Myanmar.
+	Myanmar mostley a bhuddist country refuses to accept the rohingya people as citizens of there country and there for refuses to give them citizenship to there country. 
+	Myanmar sees the rohingya people as illegal immigrants who have come from Neighbouring Country Bangladesh. 
+	The rohingyan people are being persecuted and the majority of these people are fleeing to neighbouring countries that are majority muslim to seek a better life. 
+ </p>
+    <p> <strong> Basic facts </strong>  
+	
+	</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i><ul> 
+	
+	<li> the popuation of Myanmar befor the crisis
+	was,1.3 million people before crisis after crisis 500,000 people
+	</li>
+
+	<li>-Crisis started in 2016 and is continuing till this day.
+	With the Rohingya people population decreasing exponentially as of 
+	september of 2017 the population of the myanmar rohingya people is 500000 people 
+	</li>
+	
+	<li> Myanmar is  mostly Buddhist (88%–90% of the population), with small minorities of other faiths,
+	including a small minority of Muslims (4%) </li>
+	</ul> </i></p>
+      <p></p>
+    </div>
+    <img src="/w3images/coffeeshop.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong></strong> </p>
+    <p><strong></strong> </p>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">PUSH/PULL FACTORS</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink">PUSH</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink">PULL</div>
+      </a>
+    </div>
+
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+      <h5>PUSH 1</h5>
+      <p class="w3-text-grey">The Rohingya people are not recognized as an official ethnic group in their country of origin
+	  ( Myanmar, which borders Thailand ) 
+	  and they are facing persecution by a majority Buddhist government.
+		</p><br>
+    
+      <h5>PUSH 2</h5>
+      <p class="w3-text-grey">-The Rohingya people of Myanmar are trying to escape the Arakan Rohingya Salvation Army (ARSA),
+	  which is a terrorist group.</p><br>
+    
+      <h5>PUSH 3</h5>
+      <p class="w3-text-grey">The ARSA and the military of Rohingya destroyed hundreds of villages and killed thousands of people. 
+	  Forcing them to move out of the country. 
+	  </p><br>
+    
+      </div>
+
+    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+      <h5>PULL 1</h5>
+      <p class="w3-text-grey">The most common route that fleeing Rohingya people take to flee Myanmar is heading to Burma; 
+	  a city in Bangladesh
+	</p><br>
+    
+      <h5>PULL 2</h5>
+      <p class="w3-text-grey">The rohingya refugees are heading towards bangladesh and other predominantly muslim countries in order to seek a better life. 
+	  Myanmar is predominantly buddhist and the rohingyan people are being persecuted</p><br>
+    
+      <h5>PULL 3</h5>
+      <p class="w3-text-grey">The Rohingya people are fleeing to these countries for several different reasons, 
+	  the most obvious of which is that they are trying to escape the violence and 
+	  persecution that they face in Myanmar</p><br>
+     
+    <img src="/w3images/coffeehouse2.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">AIDS</span></h5>
+    <p>These migrants are receiving help from neighbouring countries≥ that are majority muslim.</p>
+    
+    <p><span class="w3-tag">The reason why the other southeast asian countries won't help is because they do not criticise each other. It’s a rule of the association that myanmar and 10 other nations are in.
+
+</span> -What agencies are working with these migrants (UNHCR: United Nations High Commission for Refugees is usually a leader in this type of situation)</p>
+    
+	<p><span class="w3-tag">The UN is trying to help the refugees by spreading the word to different countries  </span>
+	-The united states in september 2017 has committed 32 million dollars in aid to supply refugees</p>
+	
+	<p><span= class="w3-tag">The US offered to have some of the Rohingya people take refuge in their country and supply aids such as: medicare , food, water and shelter. 
+There has been multiple donations to the people in need. From churches to online websites and physical buildings that ask for donations. 
+</span>
+There are many articles on the situation of the Rohingya people but not many people even know of the country Myanmar.</p>
+	
+	<p><span= class="w3-tag">There is news coverage of the genocide but not many people understand how bad this is.. What the Myanmar government is doing can be called an ethnic cleansing, situations like this can be compared to those like the holocaust.. Where a specific race is being targeted, killed or pushed out of their country of origin and being discriminated against.
+The situation of the Rohingya people isn't being covered as it should be. This topic is barely being covered by some major news networks. All this goes to show that you should filter what the media shows you and you should always seek
+</span></p>
+	
+	
+   
+
+   <form action="/action_page.php" target="_blank">
+     
+      <p><button class="w3-button w3-black" type="submit"></button></p>
+    </form>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">Hunnain,Jared,Chris</a></p>
+</footer>
+
+<!-- Add Google Maps -->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
+
